@@ -1,0 +1,28 @@
+{
+  "name": "ex590",
+  "version": "1.0.0",
+  "description": "Create a Node/Express API which exposes numerous endpoints that query the Northwind database",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "backend": "npx nodemon ./backend/server.js",
+    "start": "node ./backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FbW-D01/Exercise-509-BE-DAT-createAPIForNorthwindDatabase.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FbW-D01/Exercise-509-BE-DAT-createAPIForNorthwindDatabase/issues"
+  },
+  "homepage": "https://github.com/FbW-D01/Exercise-509-BE-DAT-createAPIForNorthwindDatabase#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "sqlite3": "^5.0.2"
+  }
+}
