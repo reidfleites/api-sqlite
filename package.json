@@ -1,5 +1,5 @@
 {
-  "name": "ex590",
+  "name": "api-sqlite",
   "version": "1.0.0",
   "description": "Create a Node/Express API which exposes numerous endpoints that query the Northwind database",
   "main": "index.js",
